@@ -1,0 +1,15 @@
+<!-- disease_detection/templates/disease_detection/result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result:</h1>
+    <img src="{{ uploaded_image.url }}" alt="Uploaded Image">
+    <p>Predicted Disease: {{ disease_name }}</p>
+</body>
+</html>
